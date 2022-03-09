@@ -1,0 +1,207 @@
+@import url("https://fonts.googleapis.com/css2?family=Arvo&family=Baloo+Bhai+2&family=Open+Sans&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+header {
+  background-color: #1a1919;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  z-index: 99;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+header nav {
+  width: 99vw;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  z-index: 999;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+header nav .logo {
+  margin: 0 4rem;
+}
+
+header nav .logo span {
+  font-family: "Baloo Bhai 2", cursive;
+  font-size: 2rem;
+}
+
+header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 5rem;
+}
+
+header nav ul li {
+  padding: 1.8rem 2rem;
+  list-style: none;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.2rem;
+  letter-spacing: 1.5px;
+}
+
+header .stickyNav {
+  background-color: #fff;
+  color: #000;
+}
+
+header .stickyNav ul li a {
+  color: #000;
+}
+
+header hr {
+  width: 100vw;
+}
+
+.welcomeBox {
+  background-color: #1a1919;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.welcomeBox img {
+  width: 55vw;
+}
+
+.welcomeBox h1 {
+  font-size: 2.5rem;
+  padding-bottom: 1.5rem;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 2px;
+  color: #fff;
+}
+
+#newSection {
+  margin-top: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#newSection > h1 {
+  font-size: 3rem;
+  font-family: "Baloo Bhai 2", cursive;
+}
+
+#newSection .cardsBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#newSection .cardsBox .cards {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 1rem 1rem;
+  border: 4px solid #1a1919;
+  border-radius: 10px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  cursor: pointer;
+  margin: 1rem 2rem;
+}
+
+#newSection .cardsBox .cards img {
+  width: 20vw;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+#newSection .cardsBox .cards h2 {
+  width: 20vw;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  font-family: "Arvo", serif;
+}
+
+#newSection .cardsBox .cards p {
+  width: 20vw;
+  margin-bottom: 1.5rem;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  font-family: "Open Sans", sans-serif;
+}
+
+#newSection .cardsBox .cards a {
+  text-decoration: none;
+  background-color: black;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+#newSection .cardsBox .cards:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+/*# sourceMappingURL=main.css.map */
